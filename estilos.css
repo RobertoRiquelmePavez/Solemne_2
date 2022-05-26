@@ -1,0 +1,138 @@
+
+body {
+  background-image: url("Imagenes/Pagina_2.jpg");
+  background-repeat: no-repeat;
+  background-attachment: cover;
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+
+input[type=text] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 0px 0;
+  box-sizing: border-box;
+  border: 2px solid rgb(146, 6, 228);
+  border-radius: 4px;
+
+}
+input[type=number] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 0px 0;
+  box-sizing: border-box;
+  border: 2px solid rgb(146, 6, 228);
+  border-radius: 4px;
+  
+
+}
+input[type=email] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 0px 0;
+  box-sizing: border-box;
+  border: 2px solid rgb(146, 6, 228);
+  border-radius: 4px;
+}
+
+div.contactos {
+  
+    position: fixed; 
+    right: 15px; 
+    bottom:3%; 
+    z-index:3;
+  }
+  
+
+
+a {
+  color: azure;
+}
+
+h1 {
+  text-align: center;
+  color: #5318f5;
+  font: "font: italic;"
+}
+
+h4 {
+  text-align: center;
+  color: #5318f5;
+  font: "font: italic;"
+}
+ 
+h6 {
+  text-align: center;
+  color: #5318f5;
+  font: "font: italic;"
+}
+
+
+div.informativo {
+  text-align: center;
+  color: #5318f5;
+  font: "font: italic;"
+}
+
+h4.modaltitulo {
+  text-align: center;
+  color: #5318f5;
+  font: "font: italic;"
+}
+
+h4.contactos {
+  text-align: center;
+  color: #5318f5;
+  font: "font: italic;"
+  
+}
+
+h1.titulo {
+  text-align: center;
+  color: #5318f5;
+  font: "font: italic;"
+}
+
+.importante {
+  text-align: center; 
+  justify-content: center;
+  position: center;
+  border-collapse: collapse;
+  text-align: center;
+  width: 18%;
+  background-color: azure;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: rgb(217, 235, 235);
+}
+
+.table-hover tbody tr:hover {
+  background-color: rgba(122, 114, 81, 0.7);
+}
+
+.thead-morado {
+  color: white;
+}
+
+div.galeria {
+  height: calc( 300px + 3em);
+  width: 254px;
+  margin:1em auto;
+  border: 2px solid rgb(172, 18, 138);
+  position: relative;  
+  background-color: #e98fec;
+}
+
+div.galeria img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 3s;
+}
+
+

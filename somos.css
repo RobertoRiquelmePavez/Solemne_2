@@ -1,0 +1,46 @@
+body {
+    background-image: url("Imagenes/Pagina_somos.jpg");
+    background-repeat: no-repeat;
+    background-attachment: cover;
+    background-size: cover;
+  
+  }
+
+  h1.titulo {
+    text-align: center;
+    color: #5318f5;
+    font: "font: italic;"
+  }
+  
+  h4.texto{
+    text-align:center;
+    color: #5318f5;
+    font: "font: italic;"
+    
+  } 
+
+  div.contactos {
+  
+    position: fixed; 
+    right: 15px; 
+    bottom:3%; 
+    z-index:3;
+  }
+
+  div.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    
+  }
+
+  
+  
+  
+  
+  
+ 
+  
+  
+  

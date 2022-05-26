@@ -1,0 +1,40 @@
+body {
+    background-image: url("Imagenes/Pagina_servicios\ 1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: cover;
+    background-size: cover;
+  
+  }
+
+  
+  h1.titulo {
+    text-align: center;
+    color: #5318f5;
+    font: "font: italic;"
+  }
+  
+  h2.servicios{
+    text-align:center;
+    color: #5318f5;
+    font: "font: italic;"
+  } 
+
+  .carrusel {
+    text-align: center;
+
+  }
+
+  div.servicios{
+    text-align: center;
+  }
+
+  div.contactos {
+  
+    position: fixed; 
+    right: 15px; 
+    bottom:3%; 
+    z-index:3;
+  }
+  
+ 
+  
